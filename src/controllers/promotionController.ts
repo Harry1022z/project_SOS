@@ -1,11 +1,9 @@
-// src/controllers/promotionController.ts
-
 import { Request, Response } from 'express';
 import PromotionServices from '../services/PromotionServices';
 import PromotionDto from '../Dto/PromotionDto';
-import pool from '../config/database';  // Importamos la configuración de la DB
+import pool from '../config/database';
 
-const promotionServices = new PromotionServices(pool); // Instanciamos el servicio de promociones con la base de datos
+const promotionServices = new PromotionServices(pool);
 
 // Crear una nueva promoción
 export const createPromotion = async (req: Request, res: Response) => {

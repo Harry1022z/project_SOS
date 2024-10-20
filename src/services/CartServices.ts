@@ -1,6 +1,6 @@
 import CartRepository from '../repositories/CartRepository';
 import { Pool } from 'mysql2/promise';
-import CartDto from '../Dto/CartDto';  // Importar correctamente
+import CartDto from '../Dto/CartDto';
 
 class CartServices {
   private cartRepository: CartRepository;

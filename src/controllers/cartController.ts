@@ -1,4 +1,3 @@
-// controllers/cartController.ts
 import { Request, Response } from 'express';
 import Cart from '../Dto/Cart';
 import Promotion from '../Dto/Promotion';

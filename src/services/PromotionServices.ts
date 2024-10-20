@@ -1,5 +1,3 @@
-// src/services/PromotionServices.ts
-
 import PromotionRepository from '../repositories/PromotionRepository';
 import { Pool } from 'mysql2/promise';
 import PromotionDto from '../Dto/PromotionDto';

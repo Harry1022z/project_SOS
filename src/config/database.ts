@@ -1,4 +1,3 @@
-// config/database.ts
 import { createPool, Pool } from 'mysql2/promise';
 
 const pool: Pool = createPool({
